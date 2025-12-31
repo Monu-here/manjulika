@@ -1,8 +1,9 @@
 {
-  "name": "manjulika",
-  "displayName": "manjulika",
+  "name": "manjulika-by-monu",
+  "displayName": "manjulika-theme",
   "description": "Deep sindoor red and warm temple yellow blend like fire and ritual, creating a powerful, haunting presence.",
   "version": "0.0.1",
+  "publisher": "manjulika-by-monu",
   "engines": {
     "vscode": "^1.107.0"
   },
@@ -14,7 +15,8 @@
       {
         "label": "Manjulika Ember",
         "uiTheme": "vs-dark",
-        "path": "./themes/manjulika-color-theme.json"
+        "path": "./themes/manjulika-color-theme.json",
+        "icons":"./images/icon.png"
       }
     ],
     "configurationDefaults": {

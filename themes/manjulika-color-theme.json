@@ -2,11 +2,34 @@
   "$schema": "vscode://schemas/color-theme",
   "name": "Manjulika Ember",
   "type": "dark",
-  "semanticHighlighting": true,
+  "semanticHighlighting": false,
+  "semanticTokenColors": {
+    "variable": "#e2b35b",
+    "parameter": "#e2b35b",
+    "property": "#e2b35b",
+    "function": "#e2b35b",
+    "method": "#e2b35b",
+    "class": "#e2b35b",
+    "interface": "#e2b35b",
+    "type": "#e2b35b",
+    "namespace": "#e2b35b",
+    "keyword": "#e2b35b",
+    "string": "#e2b35b",
+    "number": "#e2b35b",
+    "regexp": "#e2b35b",
+    "operator": "#e2b35b",
+    "*.declaration": "#e2b35b",
+    "*.readonly": "#e2b35b",
+    "*.static": "#e2b35b",
+    "*.deprecated": "#e2b35b",
+    "*.modification": "#e2b35b",
+    "*.documentation": "#e2b35b",
+    "*.defaultLibrary": "#e2b35b"
+  },
   "colors": {
-    "foreground": "#f2e7d9",
+    "foreground": "#e2b35b",
     "editor.background": "#0b0807",
-    "editor.foreground": "#f2e7d9",
+    "editor.foreground": "#e2b35b",
     "editorCursor.foreground": "#e2b35b",
     "editor.lineHighlightBackground": "#16100e",
     "editor.selectionBackground": "#26130f",
@@ -103,7 +126,7 @@
         "text"
       ],
       "settings": {
-        "foreground": "#f2e7d9",
+        "foreground": "#e2b35b",
         "fontStyle": "italic"
       }
     },
@@ -124,7 +147,7 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#d75b57"
+        "foreground": "#e2b35b"
       }
     },
     {
@@ -134,7 +157,7 @@
         "variable.other.constant"
       ],
       "settings": {
-        "foreground": "#e6b86d"
+        "foreground": "#e2b35b"
       }
     },
     {
@@ -143,7 +166,7 @@
         "number"
       ],
       "settings": {
-        "foreground": "#eacb87"
+        "foreground": "#e2b35b"
       }
     },
     {
@@ -162,7 +185,7 @@
         "meta.function-call"
       ],
       "settings": {
-        "foreground": "#f2d58c"
+        "foreground": "#e2b35b"
       }
     },
     {
@@ -173,7 +196,7 @@
         "support.type"
       ],
       "settings": {
-        "foreground": "#c8865f"
+        "foreground": "#e2b35b"
       }
     },
     {
@@ -183,7 +206,7 @@
         "meta.object-literal.key"
       ],
       "settings": {
-        "foreground": "#f2e7d9"
+        "foreground": "#e2b35b"
       }
     },
     {
@@ -193,7 +216,7 @@
         "meta.property-name"
       ],
       "settings": {
-        "foreground": "#e9d1a4"
+        "foreground": "#e2b35b"
       }
     },
     {
@@ -203,7 +226,7 @@
         "keyword.operator"
       ],
       "settings": {
-        "foreground": "#f1956d"
+        "foreground": "#e2b35b"
       }
     },
     {
