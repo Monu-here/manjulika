@@ -7,17 +7,27 @@
     "vscode": "^1.107.0"
   },
   "categories": [
-    "Other"
+    "Themes"
   ],
-  "activationEvents": [],
-  "main": "./out/extension.js",
   "contributes": {
-    "commands": [
+    "themes": [
       {
-        "command": "manjulika.helloWorld",
-        "title": "Hello World"
+        "label": "Manjulika Ember",
+        "uiTheme": "vs-dark",
+        "path": "./themes/manjulika-color-theme.json"
       }
-    ]
+    ],
+    "configurationDefaults": {
+      "[Manjulika Ember]": {
+        "editor.fontFamily": "'Patrick Hand', 'Fira Code', monospace",
+        "editor.fontLigatures": false,
+        "editor.fontStyle":"Italic",
+        "editor.cursorStyle": "line",
+        "editor.cursorBlinking": "smooth",
+        "editor.lineHeight": 24,
+        "editor.letterSpacing": 0.5
+      }
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
