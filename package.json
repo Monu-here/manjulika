@@ -4,6 +4,7 @@
   "description": "Deep sindoor red and warm temple yellow blend like fire and ritual, creating a powerful, haunting presence.",
   "version": "0.0.15",
   "publisher": "manjulika-by-monu",
+  "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.107.0"
   },
@@ -15,14 +16,12 @@
       {
         "label": "Manjulika Ember",
         "uiTheme": "vs-dark",
-        "path": "./themes/manjulika-color-theme.json",
-        "icons": "./images/icon.png"
+        "path": "./themes/manjulika-color-theme.json"
       },
       {
         "label": "Manjulika Light",
         "uiTheme": "vs",
-        "path": "./themes/manjulika-light-color-theme.json",
-        "icons": "./images/icon.png"
+        "path": "./themes/manjulika-light-color-theme.json"
       }
     ],
     "configurationDefaults": {
